@@ -1,0 +1,201 @@
+/* yellow: #FAEDCB
+green: #C9E4DE
+blue: #C6DEF1
+purple: #D8CDF0
+pink: #F2C6DE
+orange: #F7D9C4 
+red: #FA9189 */
+
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.tbText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #004140;
+}
+
+#companyName, #pageTitle {
+    color: #e1e7e7;
+    margin: 0px;
+}
+
+#companyName {
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+#pageTitle {
+    margin-bottom: 10px;
+}
+
+#logoImage {
+    width: 60px;
+    height: 60px;
+    margin-top: 0px;
+
+}
+
+#mainPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+/* TITLES  */
+
+.titles {
+    /* border: 4px solid green; */
+    font-size: 1.8rem;
+    text-decoration: underline;
+    width: 800px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-top: 4px solid #004140;
+
+
+}
+
+.newsBox {
+    border-radius: 20px;
+    border: 4px solid black;
+    width: 800px;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+}
+
+.boxHeader {
+    font-size: 1.4rem;
+    /* border: 4px solid blue; */
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.boxText {
+    font-size: 0.9rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    /* border: 4px solid red; */
+}
+
+.tagBox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    /* border: 4px solid blue; */
+
+}
+
+.tags {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    font-weight: 700;
+    margin-right: 10px;
+    padding-bottom: 0px;
+}
+
+#edTechSection {
+    /* border: 4px solid black; */
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#lepayaBox {
+    background-color: #f4f4f4;
+}
+
+#notOfficial, #madeByGabe {
+    margin: 0px;
+    padding: 0px;
+    color: #e1e7e7;
+}
+#notOfficial {
+    margin-top: 10px;
+}
+#madeByGabe {
+    margin-bottom: 10px;
+}
+
+
+/* TAGS  */
+
+#seedTag {
+    background-color: #C9E4DE;
+}
+
+#usaTag {
+    background-color: #C6DEF1;
+}
+
+a {
+    background-color: #FA9189;
+    color: black;
+}
+
+#convertibleNote {
+    background-color: #F2C6DE;
+}
+
+#sweden {
+    background-color: #D8CDF0;
+}
+
+#postSeed {
+    background-color: #FAEDCB;
+}
+#uk {
+    background-color: #F7D9C4;
+}
+
+#estonia {
+    background-color: #F2C6DE;
+}
+
+#seriesB {
+    background-color: #C6DEF1;
+}
+
+#denmark {
+    background-color: #FAEDCB;
+}
+
+#seriesC {
+    background-color: #F7D9C4;
+}
+
+#netherlands {
+    background-color: #C9E4DE;
+}
+
+@media (max-width: 860px) {
+    #greenTechTitle, .newsBox {
+        width: 80%;
+    }
+}
+
