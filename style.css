@@ -44,6 +44,8 @@ body {
 
 }
 
+
+
 #mainPart {
     display: flex;
     flex-direction: column;
@@ -70,8 +72,6 @@ body {
     align-items: center;
     width: 100%;
     border-top: 4px solid #004140;
-
-
 }
 
 .newsBox {
@@ -124,6 +124,7 @@ body {
     /* border: 4px solid black; */
     width: 100%;
     background-color: #ffffff;
+
 }
 
 #lepayaBox {
@@ -194,8 +195,13 @@ a {
 }
 
 @media (max-width: 860px) {
-    #greenTechTitle, .newsBox {
+    #greenTechTitle, #edTechTitle, #generalTitle, .newsBox {
         width: 80%;
+    }
+
+    .tags {
+        border: 2px solid black;
+        font-size: 0.8rem;
     }
 }
 
